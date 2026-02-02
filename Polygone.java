@@ -1,4 +1,4 @@
-public class Polygone {
+public class Polygone extends Figure{
     protected Point [] tableauPoints;
     protected int taille;
 
@@ -12,6 +12,10 @@ public class Polygone {
             this.tableauPoints[i].afficher();
         }
     }
+
+    public double aire(){
+        return 10;
+    }
     
     public double perimetre(){
         double dist = 0;
@@ -24,6 +28,6 @@ public class Polygone {
 
         return dist;
     }
-
+    
 
 }
