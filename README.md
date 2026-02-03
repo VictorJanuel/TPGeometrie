@@ -71,7 +71,7 @@ Classe principale en **mode graphique**.
 ### Compilation
 ```bash
 javac *.java
-
+```
 
 ---
 _Généré par GPT-5.2_
