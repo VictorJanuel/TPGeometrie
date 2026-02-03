@@ -35,5 +35,26 @@ public class Main {
         }catch(Exception e){
             System.out.println("Erreur: Utilisation erronée d'un triangle");
         }
+
+        Rectangle r1 = new Rectangle(new Point(14, 12, 'E'), 6, 7);
+        Rectangle r2 = new Rectangle(new Point(20, 12, 'F'), 2, 10);
+        Rectangle r3 = new Rectangle(new Point(5, 9, 'G'), 7, 1);
+        Rectangle r4 = new Rectangle(new Point(10, 21, 'H'), 4, 4);
+
+
+        CollectionFigure cf = new CollectionFigure(t);
+        
+        cf.ajouterFigure(poly);
+        cf.ajouterFigure(t);
+        cf.ajouterFigure(r1);
+        cf.ajouterFigure(r2);
+        cf.ajouterFigure(r3);
+        cf.ajouterFigure(r4);
+
+
+        cf.afficherFigure();
+
+
+
     }
 }
